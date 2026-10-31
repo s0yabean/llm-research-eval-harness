@@ -1,0 +1,61 @@
+id,group,company,truth_website,label_note
+D01,flagged,PROWYSH CLEANING SERVICE PTE. LTD.,none,No own website; marketplace listing only.
+D02,flagged,SEVEN LOTUS BEAUTY SALON PTE. LTD.,none,Only a review-directory page.
+D03,flagged,ORBITANE DYNAMICS PTE. LTD.,none,Firm is a tenant of the mall; no own website.
+D04,flagged,METRONDO PTE. LTD.,none,Different business with a similar name.
+D05,flagged,LOGIQUAY WAREHOUSING PTE. LTD.,none,Listing is another tenant of the same industrial building.
+D06,flagged,RMQ LOGISTICS & SERVICES PTE. LTD.,none,US freight company; firm has no website.
+D07,flagged,QV CLEANING PTE. LTD.,none,Shares only the word 'cleaning'.
+D08,flagged,TEOW HOCK PLUMBING AND DESIGN,none,Different business sharing one word.
+D09,flagged,BLUE ELECTRA PTE. LTD.,none,Car-sharing service sharing one word with an electrical contractor.
+D10,flagged,HALVERA LAB PTE. LTD.,halveraloft.com.sg,Employer typed a distributed brand's URL; own site is halveraloft.com.sg.
+D11,flagged,JW INTERIOR RENOVATION & CONSTRUCTION PTE. LTD.,jwinterior.sg,Real site jwinterior.sg is not among the candidates; both listings are other firms.
+D12,flagged,XANTHE BEAUTY SALONS PTE. LTD.,xanhairsg.com,"Same address, unit and postal code; trades as Xan Hair."
+D13,flagged,DR. FRIGO PTE. LTD.,doctorfrigo.sg,Listing at the job-ad postal code; site was down when checked.
+D14,flagged,TAN BROTHERS HOLDINGS PTE. LTD.,brickloftreno.sg,UEN in the site footer.
+D15,flagged,MARRISH TRADING PTE. LTD.,marrish.com.sg,
+D16,flagged,QUILLMERE BAKERY PTE. LTD.,quillmere.com,
+D17,flagged,SOLVANE AIRCON SERVICES PTE. LTD.,solvaneaircon.sg,
+D18,flagged,GRENFORD DENTAL CLINIC PTE. LTD.,grenforddental.sg,
+D19,flagged,SEET & VOON MEDICAL PTE. LTD.,harbourvaneclinic.sg,
+D20,flagged,ORCHID PEAK HOLDINGS PTE. LTD.,tesselpilates.sg,
+R01,random,MONARCH EFFECT PTE. LTD.,none,Events company sharing one word; firm has no website.
+R02,random,DR KELLAN PTE. LTD.,drkellan.com,Phone on site matches the job ad; registered office is elsewhere.
+R03,random,BRIGHTMOSS RENOVATION PTE. LTD.,brightmossreno.sg,Firm-tied signal: job ad.
+R04,random,KELVARA AIRCON PTE. LTD.,kelvaraairc.sg,Firm-tied signal: listing postal.
+R05,random,VELLOQUAY LOGISTICS PTE. LTD.,velloquaylogi.sg,Firm-tied signal: name on site.
+R06,random,ORRINBAY PLUMBING PTE. LTD.,orrinbayplum.sg,Firm-tied signal: listing full name.
+R07,random,LUMACREST DENTAL PTE. LTD.,lumacrestdent.sg,Firm-tied signal: uen on site.
+R08,random,PINEWICK MOVERS PTE. LTD.,pinewickmove.sg,Firm-tied signal: postal tie.
+R09,random,QUORLINE TUITION PTE. LTD.,quorlinetuit.sg,Firm-tied signal: job ad.
+R10,random,MARROWGATE BAKERY PTE. LTD.,marrowgatebake.sg,Firm-tied signal: listing postal.
+R11,random,TESSWELL CLEANING PTE. LTD.,tesswellclea.sg,Firm-tied signal: name on site.
+R12,random,CORVANTIS ENGINEERING PTE. LTD.,corvantisengi.sg,Firm-tied signal: listing full name.
+R13,random,DUNMERE ELECTRICAL PTE. LTD.,dunmereelec.sg,Firm-tied signal: uen on site.
+R14,random,HALCYRA BEAUTY PTE. LTD.,halcyrabeau.sg,Firm-tied signal: postal tie.
+R15,random,SORRELBY INTERIOR PTE. LTD.,sorrelbyinte.sg,Firm-tied signal: job ad.
+R16,random,WEXMOOR TRADING PTE. LTD.,wexmoortrad.sg,Firm-tied signal: listing postal.
+R17,random,PELLCREST PEST CONTROL PTE. LTD.,pellcrestpest.sg,Firm-tied signal: name on site.
+R18,random,AMBERVANE FLORIST PTE. LTD.,ambervaneflor.sg,Firm-tied signal: listing full name.
+R19,random,KESTRINE CLINIC PTE. LTD.,kestrineclin.sg,Firm-tied signal: uen on site.
+R20,random,NOLLARD FREIGHT PTE. LTD.,nollardfrei.sg,Firm-tied signal: postal tie.
+R21,random,RAVELYN STUDIO PTE. LTD.,ravelynstud.sg,Firm-tied signal: job ad.
+R22,random,TAMBERLOW CATERING PTE. LTD.,tamberlowcate.sg,Firm-tied signal: listing postal.
+R23,random,ELVANOR TUITION PTE. LTD.,elvanortuit.sg,Firm-tied signal: name on site.
+R24,random,GLIMMERDALE SPA PTE. LTD.,glimmerdalespa.sg,Firm-tied signal: listing full name.
+R25,random,BRACKWOOD CARPENTRY PTE. LTD.,brackwoodcarp.sg,Firm-tied signal: uen on site.
+R26,random,OSTRIEL MOTORS PTE. LTD.,ostrielmoto.sg,Firm-tied signal: postal tie.
+R27,random,FERNLOWE PRINTING PTE. LTD.,fernloweprin.sg,Firm-tied signal: job ad.
+R28,random,CORVALE SECURITY PTE. LTD.,corvalesecu.sg,Firm-tied signal: listing postal.
+R29,random,MIRROWIND LAUNDRY PTE. LTD.,mirrowindlaun.sg,Firm-tied signal: name on site.
+R30,random,LARKWEN OPTICAL PTE. LTD.,larkwenopti.sg,Firm-tied signal: listing full name.
+B01,blank,PREMIER IRONWOOD RESOURCES,premierironwood.sg,
+B02,blank,PERIWYNKLE SINGAPORE PTE. LTD.,periwynkle.asia,Phone on the site matches the listing.
+B03,blank,PSALTER FAMILY CLINIC PTE. LTD.,none,Google listing / directories only (checked by hand).
+B04,blank,FENGWEI PTE. LTD.,none,Google listing / directories only (checked by hand).
+B05,blank,LUMEWAY CITY OF STARS PTE. LTD.,none,Google listing / directories only (checked by hand).
+B06,blank,KORRIN CLEAN PTE. LTD.,none,Google listing / directories only (checked by hand).
+B07,blank,VANTRO TECH PTE. LTD.,none,Google listing / directories only (checked by hand).
+B08,blank,SELWYTH MART,none,Google listing / directories only (checked by hand).
+B09,blank,OKARRA HOUSE PTE. LTD.,none,Google listing / directories only (checked by hand).
+B10,blank,TIMBREL STUDIO,none,Google listing / directories only (checked by hand).

@@ -1,0 +1,7 @@
+{
+  "_note": "Model IDs and first-party list prices (US$ per million tokens) used for cost reporting. Check current IDs and prices before a real run.",
+  "haiku":  {"id": "claude-haiku-5-5",  "usd_per_mtok_in": 0.10, "usd_per_mtok_out": 0.50},
+  "sonnet": {"id": "claude-sonnet-5-5", "usd_per_mtok_in": 2.00, "usd_per_mtok_out": 10.00},
+  "opus":   {"id": "claude-opus-5-5",   "usd_per_mtok_in": 4.00, "usd_per_mtok_out": 20.00},
+  "fable":  {"id": "claude-fable-5-1",  "usd_per_mtok_in": 10.00, "usd_per_mtok_out": 50.00}
+}

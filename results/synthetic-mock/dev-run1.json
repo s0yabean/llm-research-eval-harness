@@ -1,0 +1,362 @@
+{
+ "D01": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D02": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D03": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D04": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D05": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D06": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D07": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D08": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D09": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D10": {
+  "website": "lumivane.com",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "D11": {
+  "website": "jwinteriorsg.com",
+  "status": "found",
+  "method": "maps/job ad: maps #2",
+  "alternatives": []
+ },
+ "D12": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "D13": {
+  "website": "doctorfrigo.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "D14": {
+  "website": "brickloftreno.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "D15": {
+  "website": "marrish.com.sg",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "D16": {
+  "website": "quillmere.com",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "D17": {
+  "website": "solvaneaircon.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "D18": {
+  "website": "grenforddental.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "D19": {
+  "website": "harbourvaneclinic.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "D20": {
+  "website": "tesselpilates.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R01": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "R02": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "R03": {
+  "website": "brightmossreno.sg",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "R04": {
+  "website": "kelvaraairc.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R05": {
+  "website": "velloquaylogi.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R06": {
+  "website": "orrinbayplum.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R07": {
+  "website": "lumacrestdent.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R08": {
+  "website": "pinewickmove.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R09": {
+  "website": "quorlinetuit.sg",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "R10": {
+  "website": "marrowgatebake.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R11": {
+  "website": "tesswellclea.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R12": {
+  "website": "corvantisengi.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R13": {
+  "website": "dunmereelec.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R14": {
+  "website": "halcyrabeau.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R15": {
+  "website": "sorrelbyinte.sg",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "R16": {
+  "website": "wexmoortrad.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R17": {
+  "website": "pellcrestpest.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R18": {
+  "website": "ambervaneflor.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R19": {
+  "website": "kestrineclin.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R20": {
+  "website": "nollardfrei.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R21": {
+  "website": "ravelynstud.sg",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "R22": {
+  "website": "tamberlowcate.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R23": {
+  "website": "elvanortuit.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R24": {
+  "website": "glimmerdalespa.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R25": {
+  "website": "brackwoodcarp.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R26": {
+  "website": "ostrielmoto.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R27": {
+  "website": "fernloweprin.sg",
+  "status": "found",
+  "method": "maps/job ad: job ad",
+  "alternatives": []
+ },
+ "R28": {
+  "website": "corvalesecu.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R29": {
+  "website": "mirrowindlaun.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "R30": {
+  "website": "larkwenopti.sg",
+  "status": "found",
+  "method": "maps/job ad: maps #1",
+  "alternatives": []
+ },
+ "B01": {
+  "website": "premierironwood.sg",
+  "status": "found",
+  "method": "google: google",
+  "alternatives": []
+ },
+ "B02": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B03": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B04": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B05": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B06": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B07": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B08": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B09": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ },
+ "B10": {
+  "website": null,
+  "status": "none",
+  "method": "no firm-tied candidate",
+  "alternatives": []
+ }
+}

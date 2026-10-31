@@ -1,0 +1,26 @@
+id,group,company,truth_website,label_note
+H01,holdout,ARNVALE PHYSIO PTE. LTD.,arnvalephys.sg,Firm-tied signal: job ad.
+H02,holdout,BELLWICK AIRCON PTE. LTD.,bellwickairc.sg,Firm-tied signal: listing postal.
+H03,holdout,CASSOWAY TUITION PTE. LTD.,cassowaytuit.sg,Firm-tied signal: name on site.
+H04,holdout,DORREL ENGINEERING PTE. LTD.,dorrelengi.sg,Firm-tied signal: listing full name.
+H05,holdout,EMBERLYN BAKERY PTE. LTD.,emberlynbake.sg,Firm-tied signal: uen on site.
+H06,holdout,FAIRHOLT MOVERS PTE. LTD.,fairholtmove.sg,Firm-tied signal: postal tie.
+H07,holdout,GALLOWYN SKIN PTE. LTD.,gallowynskin.sg,Firm-tied signal: job ad.
+H08,holdout,HAVERMILL TRADING PTE. LTD.,havermilltrad.sg,Firm-tied signal: listing postal.
+H09,holdout,ISTRAVE INTERIOR PTE. LTD.,istraveinte.sg,Firm-tied signal: name on site.
+H10,holdout,JESSAMY FLORIST PTE. LTD.,jessamyflor.sg,Firm-tied signal: listing full name.
+H11,holdout,KILNMORE CERAMICS PTE. LTD.,kilnmorecera.sg,Firm-tied signal: uen on site.
+H12,holdout,LOVRELL MARINE PTE. LTD.,lovrellmari.sg,Firm-tied signal: postal tie.
+H13,holdout,MERRIVANE CLINIC PTE. LTD.,merrivaneclin.sg,Firm-tied signal: listing postal.
+H14,holdout,NETHERBY LOGISTICS PTE. LTD.,netherbylogi.sg,Firm-tied signal: job ad.
+H15,holdout,OAKVANE PRINTING PTE. LTD.,oakvaneprin.sg,Firm-tied signal: name on site.
+H16,holdout,CORVANE HOLDINGS PTE. LTD.,corvane.sg,Group site lists both companies.
+H17,holdout,CORVANE SERVICES PTE. LTD.,corvane.sg,Group site lists both companies.
+H18,holdout,PELLARD CLEANING PTE. LTD.,none,
+H19,holdout,QUENBY BEAUTY PTE. LTD.,none,
+H20,holdout,ROSSVANE DENTAL PTE. LTD.,rossvanedental.sg,Own site rossvanedental.sg; rossvanegroup.com is the parent / sister brand.
+H21,holdout,STARWICK KIDS PTE. LTD.,starwickkids.sg,Own site starwickkids.sg; starwickkidsclub.com is the parent / sister brand.
+H22,holdout,TOLLVANE FITNESS PTE. LTD.,tollvanefit.sg,Own site tollvanefit.sg; tollvanegroup.com is the parent / sister brand.
+H23,holdout,UMBERVALE TEA PTE. LTD.,umbervale.co,
+H24,holdout,VESTREL PARTNERS PTE. LTD.,unsure,Site shows the name but no address or UEN; could be a namesake abroad.
+H25,holdout,WYNDCLIFFE ARTS,unsure,
