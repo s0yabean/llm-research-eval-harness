@@ -252,4 +252,4 @@ def rule_check(company, website):
         return "na"
     if is_directory(d):
         return "flag"
-    return "pass" if any(_label_matches(l, company) for l in _labels(d)) else "flag"
+    return "pass" if any(_label_matches(label, company) for label in _labels(d)) else "flag"

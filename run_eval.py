@@ -25,7 +25,7 @@ DATA = ROOT / "data"
 
 
 def load(name):
-    firms = [json.loads(l) for l in (DATA / f"{name}_firms.jsonl").read_text().splitlines() if l.strip()]
+    firms = [json.loads(ln) for ln in (DATA / f"{name}_firms.jsonl").read_text().splitlines() if ln.strip()]
     labels = {r["id"]: r for r in csv.DictReader(open(DATA / "labels" / f"{name}_labels.csv"))}
     for f in firms:
         t = labels[f["id"]]["truth_website"].strip().lower()
@@ -125,8 +125,11 @@ def main():
         raw.append(res)
         runs.append({k: (r["website"], tuple(r["alternatives"])) for k, r in res.items()})
     after = [score_dev(dev, r) for r in runs]
-    col = lambda k: ", ".join(str(s[k]) for s in after)
-    n = lambda cond: sum(1 for f in dev if cond(f))
+    def col(k):
+        return ", ".join(str(s[k]) for s in after)
+
+    def n(cond):
+        return sum(1 for f in dev if cond(f))
     kept = n(lambda f: f["group"] != "blank" and f["truth"] and f["truth"] == naive_match(f)["website"])
     none_rows = n(lambda f: f["group"] != "blank" and f["truth"] is None)
     miss_rows = n(lambda f: f["group"] == "blank" and f["truth"])
@@ -152,7 +155,7 @@ def main():
         for f in dev:
             for j in res[f["id"]]["judged"]:
                 jrows.setdefault((f["company"], j["dom"], j["dom"] == f["truth"]), []).append(j["p"])
-    L += ["", f"## 3. Judge on name-only candidates (accepted at >= 0.85)", "",
+    L += ["", "## 3. Judge on name-only candidates (accepted at >= 0.85)", "",
           f"{len(jrows)} candidates judged per run.", "",
           "| Firm | Candidate | Score per run | Really the firm's site? |", "|---|---|---|---|"]
     for (c, d, ok), ps in sorted(jrows.items(), key=lambda x: -(x[1][0] or 0)):
@@ -180,7 +183,9 @@ def main():
         variants[f"{'mock (replays the rules)' if spec == 'mock' else spec}"] = (mruns, mj)
     for name, (vr, j) in variants.items():
         ss = [score_dev(dev, r) for r in vr]
-        rng = lambda k: (lambda v: str(v[0]) if len(set(v)) == 1 else f"{min(v)}-{max(v)}")([s[k] for s in ss])
+        def rng(k, ss=ss):
+            v = [s[k] for s in ss]
+            return str(v[0]) if len(set(v)) == 1 else f"{min(v)}-{max(v)}"
         same = sum(1 for f in dev if len({r[f["id"]][0] for r in vr}) == 1)
         L.append(f"| {name} | {rng('wrong')} | {rng('missed')} | {rng('right_outcome')} | {same}/{len(dev)} | {j.calls} | {j.cost:.4f} |")
     L.append("")
@@ -190,7 +195,8 @@ def main():
     hres = {f["id"]: evidence_match(f, PAGES, judge) for f in hold}
     rows = {f["id"]: outcome(f["truth"], hres[f["id"]]["website"], hres[f["id"]]["alternatives"]) for f in scored}
     naive_wrong = sum(outcome(f["truth"], naive_match(f)["website"]) == "wrong" for f in scored)
-    c = lambda k: sum(v == k for v in rows.values())
+    def c(k):
+        return sum(v == k for v in rows.values())
     m = len(scored)
     L += [f"## 5. Fresh holdout: {len(hold)} firms, run once, no changes afterwards", "",
           "| Outcome | Firms |", "|---|---:|",

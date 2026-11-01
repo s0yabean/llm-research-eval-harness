@@ -49,8 +49,12 @@ def G(title, link):
     return {"title": title, "link": link}
 
 
-D = lambda *a, **k: firm(dev, labels_dev, *a, **k)
-H = lambda *a, **k: firm(hold, labels_hold, *a, **k)
+def D(*a, **k):
+    return firm(dev, labels_dev, *a, **k)
+
+
+def H(*a, **k):
+    return firm(hold, labels_hold, *a, **k)
 
 # =====================================================================================
 # DEV: 20 flagged rows (11 wrong websites + 9 right ones)
