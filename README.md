@@ -1,5 +1,7 @@
 # llm-research-eval-harness
 
+[![CI](https://github.com/s0yabean/llm-research-eval-harness/actions/workflows/ci.yml/badge.svg)](https://github.com/s0yabean/llm-research-eval-harness/actions/workflows/ci.yml)
+
 An eval harness for one step of an AI research agent: matching a company from a job ad to its own
 website. It scores a naive "first search result" matcher, an evidence-based matcher and blind Claude
 model judges against hand labels, then checks the result on a fresh holdout.
